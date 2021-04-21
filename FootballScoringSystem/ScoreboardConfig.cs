@@ -12,7 +12,6 @@ namespace FootballScoringSystem
     {
         public ScoreboardConfig()
         {
-            var scoreboard = new Scoreboard();
             InitializeComponent();
         }
 
