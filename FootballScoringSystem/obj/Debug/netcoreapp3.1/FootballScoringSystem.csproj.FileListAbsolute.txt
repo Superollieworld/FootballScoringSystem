@@ -1,0 +1,16 @@
+C:\Users\oj_ri\OneDrive\College Work\Unit 08 - Programming\! Assignment 2\! Assignment Folder\FootballScoringSystem\FootballScoringSystem\bin\Debug\netcoreapp3.1\FootballScoringSystem.exe
+C:\Users\oj_ri\OneDrive\College Work\Unit 08 - Programming\! Assignment 2\! Assignment Folder\FootballScoringSystem\FootballScoringSystem\bin\Debug\netcoreapp3.1\FootballScoringSystem.deps.json
+C:\Users\oj_ri\OneDrive\College Work\Unit 08 - Programming\! Assignment 2\! Assignment Folder\FootballScoringSystem\FootballScoringSystem\bin\Debug\netcoreapp3.1\FootballScoringSystem.runtimeconfig.json
+C:\Users\oj_ri\OneDrive\College Work\Unit 08 - Programming\! Assignment 2\! Assignment Folder\FootballScoringSystem\FootballScoringSystem\bin\Debug\netcoreapp3.1\FootballScoringSystem.runtimeconfig.dev.json
+C:\Users\oj_ri\OneDrive\College Work\Unit 08 - Programming\! Assignment 2\! Assignment Folder\FootballScoringSystem\FootballScoringSystem\bin\Debug\netcoreapp3.1\FootballScoringSystem.dll
+C:\Users\oj_ri\OneDrive\College Work\Unit 08 - Programming\! Assignment 2\! Assignment Folder\FootballScoringSystem\FootballScoringSystem\bin\Debug\netcoreapp3.1\FootballScoringSystem.pdb
+C:\Users\oj_ri\OneDrive\College Work\Unit 08 - Programming\! Assignment 2\! Assignment Folder\FootballScoringSystem\FootballScoringSystem\obj\Debug\netcoreapp3.1\FootballScoringSystem.csprojAssemblyReference.cache
+C:\Users\oj_ri\OneDrive\College Work\Unit 08 - Programming\! Assignment 2\! Assignment Folder\FootballScoringSystem\FootballScoringSystem\obj\Debug\netcoreapp3.1\FootballScoringSystem.csproj.GenerateResource.cache
+C:\Users\oj_ri\OneDrive\College Work\Unit 08 - Programming\! Assignment 2\! Assignment Folder\FootballScoringSystem\FootballScoringSystem\obj\Debug\netcoreapp3.1\FootballScoringSystem.AssemblyInfoInputs.cache
+C:\Users\oj_ri\OneDrive\College Work\Unit 08 - Programming\! Assignment 2\! Assignment Folder\FootballScoringSystem\FootballScoringSystem\obj\Debug\netcoreapp3.1\FootballScoringSystem.AssemblyInfo.cs
+C:\Users\oj_ri\OneDrive\College Work\Unit 08 - Programming\! Assignment 2\! Assignment Folder\FootballScoringSystem\FootballScoringSystem\obj\Debug\netcoreapp3.1\FootballScoringSystem.csproj.CoreCompileInputs.cache
+C:\Users\oj_ri\OneDrive\College Work\Unit 08 - Programming\! Assignment 2\! Assignment Folder\FootballScoringSystem\FootballScoringSystem\obj\Debug\netcoreapp3.1\FootballScoringSystem.dll
+C:\Users\oj_ri\OneDrive\College Work\Unit 08 - Programming\! Assignment 2\! Assignment Folder\FootballScoringSystem\FootballScoringSystem\obj\Debug\netcoreapp3.1\FootballScoringSystem.pdb
+C:\Users\oj_ri\OneDrive\College Work\Unit 08 - Programming\! Assignment 2\! Assignment Folder\FootballScoringSystem\FootballScoringSystem\obj\Debug\netcoreapp3.1\FootballScoringSystem.genruntimeconfig.cache
+C:\Users\oj_ri\OneDrive\College Work\Unit 08 - Programming\! Assignment 2\! Assignment Folder\FootballScoringSystem\FootballScoringSystem\obj\Debug\netcoreapp3.1\FootballScoringSystem.ScoreboardConfig.resources
+C:\Users\oj_ri\OneDrive\College Work\Unit 08 - Programming\! Assignment 2\! Assignment Folder\FootballScoringSystem\FootballScoringSystem\obj\Debug\netcoreapp3.1\FootballScoringSystem.Scoreboard.resources
