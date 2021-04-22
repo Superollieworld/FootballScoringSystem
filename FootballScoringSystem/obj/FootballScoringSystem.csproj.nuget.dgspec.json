@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oj_ri\\OneDrive\\College Work\\Unit 08 - Programming\\! Assignment 2\\! Assignment Folder\\FootballScoringSystem\\FootballScoringSystem\\FootballScoringSystem.csproj": {}
+    "C:\\Users\\oj_ri\\source\\repos\\Superollieworld\\FootballScoringSystem\\FootballScoringSystem\\FootballScoringSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oj_ri\\OneDrive\\College Work\\Unit 08 - Programming\\! Assignment 2\\! Assignment Folder\\FootballScoringSystem\\FootballScoringSystem\\FootballScoringSystem.csproj": {
+    "C:\\Users\\oj_ri\\source\\repos\\Superollieworld\\FootballScoringSystem\\FootballScoringSystem\\FootballScoringSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oj_ri\\OneDrive\\College Work\\Unit 08 - Programming\\! Assignment 2\\! Assignment Folder\\FootballScoringSystem\\FootballScoringSystem\\FootballScoringSystem.csproj",
+        "projectUniqueName": "C:\\Users\\oj_ri\\source\\repos\\Superollieworld\\FootballScoringSystem\\FootballScoringSystem\\FootballScoringSystem.csproj",
         "projectName": "FootballScoringSystem",
-        "projectPath": "C:\\Users\\oj_ri\\OneDrive\\College Work\\Unit 08 - Programming\\! Assignment 2\\! Assignment Folder\\FootballScoringSystem\\FootballScoringSystem\\FootballScoringSystem.csproj",
+        "projectPath": "C:\\Users\\oj_ri\\source\\repos\\Superollieworld\\FootballScoringSystem\\FootballScoringSystem\\FootballScoringSystem.csproj",
         "packagesPath": "C:\\Users\\oj_ri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oj_ri\\OneDrive\\College Work\\Unit 08 - Programming\\! Assignment 2\\! Assignment Folder\\FootballScoringSystem\\FootballScoringSystem\\obj\\",
+        "outputPath": "C:\\Users\\oj_ri\\source\\repos\\Superollieworld\\FootballScoringSystem\\FootballScoringSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oj_ri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

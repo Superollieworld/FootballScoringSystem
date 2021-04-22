@@ -12,13 +12,10 @@ namespace FootballScoringSystem
     {
         public ScoreboardConfig()
         {
-            var scoreboard = new Scoreboard();
             InitializeComponent();
         }
 
-        private Form Scoreboard;
-
-        private void configStartButton_Click(object sender,EventArgs e)
+        public void configStartButton_Click(object sender,EventArgs e)
         {
             // Home Team Validation
             if (configHomeTeamName.Text =="")
@@ -29,23 +26,28 @@ namespace FootballScoringSystem
             // Away Team Validation
             else if (configAwayTeamName.Text == "") {
                 MessageBox.Show("Enter a valid away team name!");
-                configHomeTeamName.Focus();
+                configAwayTeamName.Focus();
             } 
             // Validation success
             else
             {
+                this.Hide();
 
+                Scoreboard scoreboard = new Scoreboard(hometeam, awayteam);
+                scoreboard.Show();
             }
         }
 
+        string hometeam;
         private void configHomeTeamName_TextChanged(object sender, EventArgs e)
         {
-            string configHomeTeamName.Text = HomeTeamName;
+            string hometeam = configHomeTeamName.Text;
         }
 
+        string awayteam;
         private void configAwayTeamName_TextChanged(object sender, EventArgs e)
         {
-
+            string awayteam = configAwayTeamName.Text;
         }
     }
 }
