@@ -119,7 +119,6 @@ namespace FootballScoringSystem
             this.configAwayTeamName.Name = "configAwayTeamName";
             this.configAwayTeamName.Size = new System.Drawing.Size(282, 27);
             this.configAwayTeamName.TabIndex = 9;
-            this.configAwayTeamName.TextChanged += new System.EventHandler(this.configAwayTeamName_TextChanged);
             // 
             // ScoreboardConfig
             // 

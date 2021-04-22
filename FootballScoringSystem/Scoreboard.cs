@@ -14,19 +14,23 @@ namespace FootballScoringSystem
         // Score Data Members
         int scoreHomeTeam = 0;
         int scoreAwayTeam = 0;
-        // Stopwatch int
+        // Stopwatch Init
         private Stopwatch stopWatch;
-        public Scoreboard(string hometeam, string awayteam)
+        public Scoreboard()
         {
             InitializeComponent();
-            labelHomeTeamName.Text = hometeam;
+            // Create stopwatch
             stopWatch = new Stopwatch();
         }
 
         private void Scoreboard_Load(object sender, EventArgs e)
         {
+            // Get team name data members from config
+            labelHomeTeamName.Text = ScoreboardConfig.HomeTeamName;
+            labelAwayTeamName.Text = ScoreboardConfig.AwayTeamName;
         }
 
+        // Stopwatch configuration
         private void timer_Tick(object sender, EventArgs e)
         {
             this.labelTime.Text = string.Format("{0:mm\\:ss}", stopWatch.Elapsed);

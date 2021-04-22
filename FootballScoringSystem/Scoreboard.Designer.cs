@@ -42,7 +42,7 @@ namespace FootballScoringSystem
             // 
             // labelAwayTeamScore
             // 
-            this.labelAwayTeamScore.AutoSize = true;
+            this.labelAwayTeamScore.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelAwayTeamScore.Font = new System.Drawing.Font("Stencil", 150F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelAwayTeamScore.ForeColor = System.Drawing.Color.Red;
             this.labelAwayTeamScore.Location = new System.Drawing.Point(780, 230);
@@ -54,7 +54,7 @@ namespace FootballScoringSystem
             // 
             // labelHomeTeamScore
             // 
-            this.labelHomeTeamScore.AutoSize = true;
+            this.labelHomeTeamScore.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelHomeTeamScore.Font = new System.Drawing.Font("Stencil", 150F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelHomeTeamScore.ForeColor = System.Drawing.Color.Red;
             this.labelHomeTeamScore.Location = new System.Drawing.Point(75, 230);
@@ -66,7 +66,7 @@ namespace FootballScoringSystem
             // 
             // labelHomeTeamName
             // 
-            this.labelHomeTeamName.AutoSize = true;
+            this.labelHomeTeamName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelHomeTeamName.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelHomeTeamName.ForeColor = System.Drawing.Color.Yellow;
             this.labelHomeTeamName.Location = new System.Drawing.Point(40, 120);
@@ -76,10 +76,11 @@ namespace FootballScoringSystem
             this.labelHomeTeamName.Tag = "";
             this.labelHomeTeamName.Text = "HomeTeamName";
             this.labelHomeTeamName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelHomeTeamName.UseMnemonic = false;
             // 
             // labelVS
             // 
-            this.labelVS.AutoSize = true;
+            this.labelVS.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelVS.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelVS.ForeColor = System.Drawing.Color.Yellow;
             this.labelVS.Location = new System.Drawing.Point(590, 120);
@@ -90,7 +91,7 @@ namespace FootballScoringSystem
             // 
             // labelAwayTeamName
             // 
-            this.labelAwayTeamName.AutoSize = true;
+            this.labelAwayTeamName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelAwayTeamName.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelAwayTeamName.ForeColor = System.Drawing.Color.Yellow;
             this.labelAwayTeamName.Location = new System.Drawing.Point(750, 120);
@@ -102,7 +103,7 @@ namespace FootballScoringSystem
             // 
             // labelTimeName
             // 
-            this.labelTimeName.AutoSize = true;
+            this.labelTimeName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelTimeName.Font = new System.Drawing.Font("Segoe UI", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelTimeName.ForeColor = System.Drawing.Color.Yellow;
             this.labelTimeName.Location = new System.Drawing.Point(570, 280);
@@ -114,7 +115,7 @@ namespace FootballScoringSystem
             // 
             // labelTime
             // 
-            this.labelTime.AutoSize = true;
+            this.labelTime.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelTime.Font = new System.Drawing.Font("Stencil", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelTime.ForeColor = System.Drawing.Color.Yellow;
             this.labelTime.Location = new System.Drawing.Point(540, 350);
@@ -150,7 +151,6 @@ namespace FootballScoringSystem
             this.Load += new System.EventHandler(this.Scoreboard_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Scoreboard_KeyPress);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -158,12 +158,12 @@ namespace FootballScoringSystem
 
         private System.Windows.Forms.Label AwayTeamLabel;
         private System.Windows.Forms.Label labelVS;
-        private System.Windows.Forms.Label labelAwayTeamName;
         private System.Windows.Forms.Label labelAwayTeamScore;
         private System.Windows.Forms.Label labelTimeName;
         private System.Windows.Forms.Label labelTime;
         public System.Windows.Forms.Label labelHomeTeamName;
         private System.Windows.Forms.Timer timer;
         public System.Windows.Forms.Label labelHomeTeamScore;
+        public System.Windows.Forms.Label labelAwayTeamName;
     }
 }
